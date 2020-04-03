@@ -1,0 +1,12 @@
+How to install Voxis Platform on your host:
+1. Open config.php via text editor.
+2. Edit all the needed fields and save.
+3. Upload voxis_platform folder to your hosting.
+4. Open your browser and navigate to http://hosting/voxis_platform/install.php
+5. Delete install.php file.
+6. Add the following cron job to your server's crontab: */3 * * * * /usr/bin/curl --silent http://hosting/voxis_platform/cronjob.php
+7. Enjoy!
+
+ Cos'è questo fatto mene lo ha pubblicato fee? :( poverini 
+
+ For support @imbooternow
